@@ -15,4 +15,4 @@ mix hex.build
 
 echo "===> Publishing hex package"
 echo
-mix hex.publish
+mix hex.publish --yes
