@@ -1,0 +1,11 @@
+name: 'Publish elixir packages to hex.pm'
+description: 'Publish elixir packages to hex.pm'
+author: 'wesleimp'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'package'
+  color: 'purple'
