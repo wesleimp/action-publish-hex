@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Publish package to hex.pm
-        uses: wesleimp/action-publish-hex@v1
+        uses: salemove/action-publish-hex@v1
         env:
           HEX_API_KEY: ${{ secrets.HEX_API_KEY }}
 ```
